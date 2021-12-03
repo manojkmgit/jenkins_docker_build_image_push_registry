@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "manojkmhub/jenkins_php_push"
+        registry = "manojkmhub/jenkins_build_php_push"
             registryCredential = 'docker_hub_cred'
         
             dockerImage = ''
